@@ -1,0 +1,129 @@
+@import url('font_vintage.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('remixicon.css');
+@import url('grid.css');
+@import url('animate.min.css');
+body{
+    margin:0;
+    font-family: "Noto Sans KR", sans-serif;
+    background:url('../iamges/Layer_1.png') no-repeat 126px top,
+               url('../iamges/background.gif') repeat-x left top;
+    color:#000;
+    font-size:15px;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    color:#555;
+}
+.serif{
+    font-family: "Noto Serif KR", serif;
+}
+.vintage{
+    font-family: 'Hey Vintage', serif;
+}
+.container{
+    width:1340px;
+}
+
+text-center{
+    text-align: center;
+}
+d-flex{
+    display:flex;
+}
+.align-center{
+    align-items:center;
+}
+.align-end{
+    align-items:flex-end;
+}
+.justify-between{
+    justify-content:space-between;
+}
+/************ HEADER *************/
+header{
+   padding: 35px 30px 120px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:30px;
+}
+nav .snsbox a{
+    margin-right:8px;   
+    font-size:20px;
+}
+.searchbox a{
+    font-size:20px;
+}
+nav a{
+    color:#757575;
+}
+nav a:hover{
+    color:#000;
+}
+nav a.act{
+    color:#000;
+}
+ul.main{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    text-transform: uppercase;
+    width:520px;
+    justify-content: space-between;
+}
+
+a.logo{
+    display:block;
+    width:160px;
+    height:160px;
+    background: url(../iamges/logo.png) no-repeat;
+    background-size:200px;
+    margin:35px auto 0;
+    border-radius: 50%;
+}
+
+
+
+/*********************** HERE SECTION*****************/
+
+.hero{
+    width:100%;
+    overflow:hidden;
+}
+.hero h1{
+    font-size:64px;
+    font-weight:200;
+    margin:0;
+}
+.hero
+.col-30{
+    flex:0 0 30%;
+    max-width:30%
+}
+.col-20{
+    flex: 0 0 20%;
+    max-width:20%;
+}
+
+.h-img img{
+    width:100%;
+    object-fit:contain;
+}
+
+.hero-box{   
+    position: relative;
+    display: flex;
+
+    background:url(../iamges/background.gif) no-repeat center;
+}
+.heor-card{
+    position:relative;
+    padding:    
+}
